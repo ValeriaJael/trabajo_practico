@@ -20,7 +20,7 @@ def calculadora (num):
 
 #Aqui hay un while con opciones para que el usuario eliga
 opcion = int (input("Eliga una opcion del juego de 1 al 5, la primera es para numeros impares o pares, la segunda para calcular numeros, la tercera para lista de frutas, la cuarta opcion es para cambiar mayusculas a minusculas y la ultima pra salir del juego"))
-while 6>opcion:
+while True:
    if opcion == 1:
        print("Juego de impar o par") 
        print("En este juego cada números que pongas, el programa te va a decir si impar o par ")
